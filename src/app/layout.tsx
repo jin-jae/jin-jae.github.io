@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Kim Jinjae",
-  description: "Kim Jinjae's Simple Version CV Page",
+  description: "Kim Jinjae's CV",
 };
 
 export default function RootLayout({
