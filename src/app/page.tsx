@@ -1,5 +1,4 @@
-import AnimatedDots from "@/components/AnimatedDots";
-import Links from "@/components/Links";
+import Links from "@/components/BioLinks";
 import Profile from "@/components/Profile";
 
 export default function Home() {
@@ -12,8 +11,8 @@ export default function Home() {
           CV Page (TBD)
         </p>
       </main>
-      <footer className="items-center justify-center">
-        <AnimatedDots />
+      <footer className="items-center justify-center text-sm">
+        © 2025 Jinjae Kim. All rights reserved.
       </footer>
     </div>
   );

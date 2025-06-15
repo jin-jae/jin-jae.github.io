@@ -1,8 +1,8 @@
-import type { LinkInfoProps } from '@/types/LinkInfoProps';
+import type { BioLinkProps } from '@/types/BioLinkProps';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 
-export default function LinkInfo({ icon, text, href }: LinkInfoProps) {
+export default function BioLink({ icon, text, href }: BioLinkProps) {
   const isHrefExist = typeof href === 'string' && href.length > 0;
 
   const containerClass = isHrefExist
