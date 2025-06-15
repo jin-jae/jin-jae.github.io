@@ -11,7 +11,12 @@
     "gh-deploy": "GITHUB_PAGES=true npm run build && touch out/.nojekyll && gh-pages -d out --dotfiles"
   },
   "dependencies": {
-    "next": "15.2.3",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "next": "^15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
