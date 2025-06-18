@@ -1,7 +1,10 @@
 import BioLinks from "@/components/BioLinks";
 import Profile from "@/components/Profile";
-import Experiences from "@/components/Experiences";
+import Templates from "@/components/Templates";
 import Title from "@/modal/Title";
+
+import projectData from "@/data/ProjectData";
+import educationData from "@/data/EducationData";
 
 export default function Home() {
   return (
@@ -10,13 +13,14 @@ export default function Home() {
       <BioLinks />
       <main className="flex flex-col w-full">
         <Title title="EDUCATION" />
+        <Templates data={educationData} />
       </main>
       <main className="flex flex-col w-full">
         <Title title="PUBLICATIONS" />
       </main>
       <main className="flex flex-col w-full">
         <Title title="PROJECTS" />
-        <Experiences />
+        <Templates data={projectData} />
       </main>
       <main className="flex flex-col w-full">
         <Title title="EXPERIENCES" />
