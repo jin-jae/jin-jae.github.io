@@ -6,7 +6,7 @@ export default function BioLink({ icon, text, href }: BioLinkProps) {
   const isHrefExist = typeof href === 'string' && href.length > 0;
 
   const containerClass = isHrefExist
-    ? 'group flex items-center cursor-pointer transition-colors hover:text-blue-600'
+    ? 'group flex items-center cursor-pointer transition-colors hover:text-blue-600 dark:hover:text-blue-400'
     : 'flex items-center transition-colors';
 
   const IconWrapper = (
@@ -16,7 +16,7 @@ export default function BioLink({ icon, text, href }: BioLinkProps) {
   );
 
   const TextWrapper = (
-    <span className="ml-2 text-sm text-gray-700 group-hover:text-blue-600">
+    <span className="ml-2 text-sm text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400">
       {text}
     </span>
   );
@@ -29,7 +29,7 @@ export default function BioLink({ icon, text, href }: BioLinkProps) {
   ) : (
     <div className={containerClass}>
       {IconWrapper}
-      <span className="ml-2 text-sm text-gray-700">{text}</span>
+      <span className="ml-2 text-sm text-gray-700 dark:text-gray-300">{text}</span>
     </div>
   );
 }
