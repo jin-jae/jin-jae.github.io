@@ -32,7 +32,7 @@ export default function Template({ title, url, from, period, role, description, 
       {
         description &&
         <ul className="ml-2 list-disc list-inside text-gray-800 dark:text-gray-200 mb-2">
-          {description.map((item: any, idx: any) => (
+          {description.map((item: string, idx: number) => (
             <li key={idx}>{item}</li>
           ))}
         </ul>
@@ -40,7 +40,7 @@ export default function Template({ title, url, from, period, role, description, 
       {
         results &&
         <div className="ml-4 list-disc list-inside text-sm text-gray-800 dark:text-gray-200">
-          {results.map((item: any, idx: any) => (
+          {results.map((item: string, idx: number) => (
             <p key={idx}>{item}</p>
           ))}
         </div>
