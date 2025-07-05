@@ -1,3 +1,4 @@
+import React, { ReactNode } from 'react';
 import { TemplateProps } from "@/types/TemplateProps";
 import Link from "next/link";
 
@@ -32,7 +33,7 @@ export default function Template({ title, url, from, period, role, description, 
       {
         description &&
         <ul className="ml-2 list-disc list-inside text-gray-800 dark:text-gray-200 mb-2">
-          {description.map((item: string, idx: number) => (
+          {description.map((item: React.ReactNode, idx: number) => (
             <li key={idx}>{item}</li>
           ))}
         </ul>
