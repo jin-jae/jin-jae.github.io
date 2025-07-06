@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { TemplateProps } from "@/types/TemplateProps";
 import Link from "next/link";
 
