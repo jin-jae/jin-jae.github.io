@@ -11,7 +11,7 @@ const publicationData: TemplateProps[] = [
     title: 'TraM: Enhancing User Sleep Prediction with Transformer-based Multivariate Time Series Modeling and Machine Learning Ensembles',
     url: 'https://ieeexplore.ieee.org/abstract/document/10827790',
     description: [
-      'Kim, J., Ma, M., Choi, E., Cho, K., & Lee, C. (2024). TraM: Enhancing User Sleep Prediction with Transformer-based Multivariate Time Series Modeling and Machine Learning Ensembles. ICTC.'
+      <><strong>Kim, J.</strong>, Ma, M., Choi, E., Cho, K., & Lee, C. (2024). TraM: Enhancing User Sleep Prediction with Transformer-based Multivariate Time Series Modeling and Machine Learning Ensembles. ICTC.</>
     ],
   },
 ];

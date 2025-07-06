@@ -16,7 +16,7 @@ const projectData: TemplateProps[] = [
     ],
   },
   {
-    title: 'Legal QA Chatbot Service',
+    title: 'Korean Legal QA Chatbot Service',
     url: 'https://github.com/byeonhophd',
     from: '1st AI Chip Contest',
     period: 'Aug. 2024 - Dec. 2024',
@@ -35,10 +35,10 @@ const projectData: TemplateProps[] = [
     period: 'May. 2024 - Oct. 2024',
     role: '(Team Leader) Data Analysis & Preprocessing, Time-Series Deep Learning Modeling, First Author of Conference Paper',
     description: [
-      'Developed a legal support chatbot service using sub-10.8B parameter sLLM on NPU servers',
-      'Implemented RAG with Korean statutes and case law for evidence-based Q&A, legal search, and sentence prediction',
-	    'Achieved an average Time to First Token (TTFT) of 2.5 seconds per round, enabling robust multi-turn interactions',
-	    'Improved explicitness by 21%p and relevance by 45%p over existing services, based on lawyer evaluations'
+      'Utilized lifelog data to recognize and infer sleep patterns, emotional states, and stress indicators',
+      'Applied time-series regression model and multi-output classifier based on data-driven analysis',
+      'Achieved 2nd place in the final private leaderboard (F1-score) with a robust predictive model',
+      'Published and presented a first-author paper at ICTC conference (Kim et al., 2024)'
     ],
   },
   {
